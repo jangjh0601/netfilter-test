@@ -43,7 +43,7 @@ int filter(unsigned char* buf, int size, char* host){
                host_idx = i+6;
                printf("host_idx = %d\n", host_idx);
            }
-           else if (HTTP[i] == 'U' && HTTP[i+1] == 's' && HTTP[i+2] == 'e' && HTTP[i+3] == 'r' && HTTP[i+4] == '-'){
+           else if (HTTP[i] == 'U' && HTTP[i+1] == 's' && HTTP[i+2] == 'e' && HTTP[i+3] == 'r' && HTTP[i+4] == '-' && HTTP[i+5] == 'A' && HTTP[i+6] == 'g' && HTTP[i+7] == 'e' && HTTP[i+8] == 'n' && HTTP[i+9] == 't'){
                user_agent = i;
                printf("user-agent = %d\n", user_agent);
            }
